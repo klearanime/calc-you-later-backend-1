@@ -72,10 +72,10 @@ describe('calculate', () => {
     expect(calculate('31', '5', 'subtracted from')).toBe(26)
   })
 
-  it(`allows for the words 'multiplied by' in division`, () => {
-    expect(calculate('3', '5', 'multiplied by')).toBe(15)
-    expect(calculate('3', '50', 'multiplied by')).toBe(150)
-  })
+  // it(`allows for the words 'multiplied by' in division`, () => {
+  //   expect(calculate('3', '5', 'multiplied by')).toBe(15)
+  //   expect(calculate('3', '50', 'multiplied by')).toBe(150)
+  // })
 
   it(`allows for the words 'divided by' in division`, () => {
     expect(calculate('15', '5', 'divided by')).toBe(3)
